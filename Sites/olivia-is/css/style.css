@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,300,500,600);
+
+body {
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  line-height: 2;
+  color: #ffffff;
+  transition: background-color 0.3s ease-in;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 12px;
+}
+
+a {
+  font-size: 12px;
+  color: #ffffff;
+  margin: 0 15px 0 15px;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px solid #ffffff;
+}
+
+.lead {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.info {
+  padding: 0 0 20px 0;
+}
+
+.browser {
+  box-shadow: 0 0 8px rgba(100, 100, 100, 0.8);
+}
+
+.icons {
+  margin: 100px 0 100px 0;
+}
+
+#about {
+  background-color: #010D3C;
+  padding-top: 100px;
+}
+
+#steer {
+  background-color: #0245ad;
+}
+
+#semaine {
+  background-color: #E2C6B4;
+}
+
+#last-studio {
+  background-color: #000A3D;
+}
+
+#built-in-london {
+  background-color: #cd1426;
+}
+
+#munch {
+  background-color: #fac600;
+}
+
+footer {
+  background-color: #010D3C;
+  padding-top: 100px;
+}
+
+/* White Border round page */
+
+#top, #bottom, #left, #right {
+	background: #ffffff;
+	position: fixed;
+  z-index: 100;
+	}
+
+	#left, #right {
+		top: 0;
+    bottom: 0;
+		width: 10px;
+		}
+
+		#left {
+      left: 0;
+    }
+		#right {
+      right: 0;
+    }
+
+	#top, #bottom {
+		left: 0;
+    right: 0;
+		height: 10px;
+		}
+		#top {
+      top: 0;
+    }
+		#bottom {
+      bottom: 0;
+    }
+
+@media
+
+/* Fairly small screens including iphones */
+only screen and (max-width: 800px),
+
+/* iPads */
+only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+
+{
+	#top, #bottom, #left, #right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+    #about {
+      padding-top: 80px;
+      padding-bottom: 30px;
+    }
+    .container {
+      padding: 0 30px 0 30px;
+    }
+    .browser {
+      margin-bottom: 40px;
+    }
+    .icons {
+      margin-top: 60px;
+    }
+    footer {
+      padding-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    margin-bottom: 3px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    line-height: 1.8;
+  }
+  h1 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lead {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #about {
+    padding-top: 30px;
+  }
+  .container {
+    padding-top: 30px;
+  }
+  .browser {
+    margin-bottom: 30px;
+  }
+  footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  a {
+    font-size: 11px;
+    margin: 0 6px 0 6px;
+  }
+}
